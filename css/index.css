@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header.header{
+    background: #58B7FF;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px; 
+    overflow: hidden;
+    min-height: 500px;
+  }
+article{
+    position: relative;
+    background:#ccc ;
+    min-height: 500px;
+}
+
+article aside{
+   position:absolute;
+    left:300px;
+    top:0px;
+    color: #58B7FF;
+}
+
+.el-menu-demo{
+    width:800px;
+}
+
